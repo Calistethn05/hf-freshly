@@ -1,0 +1,74 @@
+@media screen and (max-width: 979px) and (min-width: 780px) {
+
+
+/*========================================
+HOME PAGE
+=========================================*/
+/*****************************************
+RESET
+******************************************/
+    .wrapper {}
+
+
+/*****************************************
+HEADER
+******************************************/
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header>a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header ul {
+        margin: 0;
+    }
+
+    .header nav {
+        background-color: #ebe3db;
+        width: 100%;
+        margin-block: 1rem;
+    }
+
+    .header nav a {
+        display: block;
+    }
+
+/*****************************************
+MAIN
+******************************************/
+    .restaurant .img-float {
+        width: 100%;
+        margin-block: 1rem;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container .position {
+        padding: 1rem;
+    }
+    
+    .container .position .text img {
+        width: 2rem;
+    }
+
+
+/*========================================
+ABOUT PAGE
+=========================================*/
+    .dining {
+        padding: 1.5rem 1rem;
+        gap: 2rem;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+}

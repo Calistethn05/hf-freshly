@@ -1,0 +1,40 @@
+/***********************************
+FONT FACE ATHITI
+************************************/
+@font-face {
+    font-family: Athiti;
+    src: url(./instructions/fonts/Athiti/athiti-regular.woff2) format("woff2"),
+    url(./instructions/fonts/Athiti/athiti-regular.woff) format("woff"),
+    url(./instructions/fonts/Athiti/athiti-regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: Athiti;
+    src: url(./instructions/fonts/Athiti/athiti-bold.woff2) format("woff2"),
+    url(./instructions/fonts/Athiti/athiti-bold.woff) format("woff"),
+    url(./instructions/fonts/Athiti/athiti-bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+/***********************************
+FONT FACE MERIENDA
+************************************/
+@font-face {
+    font-family: Merienda;
+    src: url(./instructions/fonts/Merienda/merienda-regular.woff2) format("woff2"),
+         url(./instructions/fonts/Merienda/merienda-regular.woff) format("woff"),
+         url(./instructions/fonts/Merienda/merienda-regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: Merienda;
+    src: url(./instructions/fonts/Merienda/merienda-bold.woff2) format("woff2"),
+         url(./instructions/fonts/Merienda/merienda-bold.woff) format("woff"),
+         url(./instructions/fonts/Merienda/merienda-bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+

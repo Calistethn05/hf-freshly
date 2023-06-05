@@ -1,0 +1,107 @@
+@media screen and (max-width: 779px) {
+
+/*****************************************
+HEADER
+******************************************/
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header>a {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+}
+
+.header ul li {
+    border-bottom: 1px solid black;
+}
+
+.header ul li a {
+    margin: 0;
+}
+
+.header nav {
+    background-color: #ebe3db;
+    width: 100%;
+    margin-block: 1rem;
+}
+
+.header nav a {
+    display: block;
+}
+/*****************************************
+MAIN
+******************************************/
+.restaurant .img-float {
+    width: 100%;
+    margin-block: 1rem;
+}
+
+.item img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.text h4 {
+    font-size: 3rem;
+}
+
+.main .dining {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.main .dining figure {
+    margin: 1rem .5rem;
+}
+
+.main .container .position {
+    padding: .5rem;
+}
+
+.main .container .position .text img {
+    width: 2rem;
+}
+
+/*****************************************
+FOOTER
+******************************************/
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .items-center {
+    grid-column: 1 / -1;
+    width: 50%;
+    justify-self: center;
+}
+/*=========================================
+MENU
+===========================================  */
+.main .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/*=========================================
+CONTACT
+===========================================  */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- importation de jQuery -->
+    <script src="jquery-3.7.0.min.js"></script>
+    <title>jQuery</title>
+</head>
+<body>
+    
+    <button id="hide">Cacher</button>
+    <button id="show">Afficher</button>
+    <button id="toggle">Toggle</button>
+    <button id="css">Colorier</button>
+
+    <p id="paragraph">Appuyer sur "Cacher" ou sur "Afficher"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, tenetur enim aut deserunt inventore voluptatem consequuntur magni ea debitis ducimus similique perferendis optio omnis culpa asperiores alias quos reprehenderit ut facilis, maxime atque adipisci fuga. Harum modi odio aspernatur molestias voluptatem voluptatum rem facere vel quo. Facere eius nam laborum!</p>
+
+    <!-- Code personnalisé -->
+    <script>
+        $(document).ready(function() {
+            $("#hide").click(function(){
+                $("#paragraph").hide(2000);
+            });
+            $("#show").click(function(){
+                $("#paragraph").show(2000);
+            });
+            $("#toggle").click(function () {
+                $("#paragraph").toggle(1000);
+            });
+            // css ("propriété", "valeur");
+            /*css({
+                "propr-1": "val-1",
+                "propr-2": "val-2",
+                ...
+            })  */
+            $("#css").click(function (){
+                $("#paragraph").css("color", "blue");
+            });
+        });
+        // $(function() {
+
+        // });
+    </script>
+
+</body>
+</html>
